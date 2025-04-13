@@ -1,0 +1,72 @@
+/*.Add-Book-Form{
+    background-color: rgb(56, 5, 240); 
+    padding: 1rem;
+    margin: auto;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(63, 62, 62);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.Add-Book-Form input,
+.Add-Book-Form textarea{
+   padding: 0.75rem;
+   border: 1px solid #ccc;
+   border-radius: 6px;
+   font-size: 1rem;
+}
+
+.Add-Book-Form button{
+    padding: 0.75rem;
+    background-color: #16a34a;
+    color: #ccc;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.Add-Book-Form button:hover{
+    background-color: hsl(32, 100%, 48%);
+} */
+
+
+/* AddStudentForm.css */
+
+.student-Form{
+    background-color: rgb(56, 5, 240); 
+    padding: 1.5rem;
+    margin: 2rem auto;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(63, 62, 62);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.student-Form input{
+   padding: 0.75rem;
+   border: 1px solid #ccc;
+   border-radius: 6px;
+   font-size: 1rem;
+}
+
+.student-Form button{
+    padding: 0.75rem;
+    background-color: #16a34a;
+    color: #ccc;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.student-Form button :hover{
+    background-color: blue;
+}
+    
