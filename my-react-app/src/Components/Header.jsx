@@ -18,7 +18,8 @@ function Header() {
     return (
         <header className="header">
             {/* <h1 className="text-2xl font-bold">Student Directory</h1> */}
-            <h1 className="text-2xl font-bold">Movie Directory</h1>
+            {/* <h1 className="text-2xl font-bold">Movie Directory</h1> */}
+            <h1>Todo List App</h1>
         </header>
         
         

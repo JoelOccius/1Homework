@@ -1,0 +1,11 @@
+.todo-list{ 
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+.todo-list .empty{
+    text-align: center;
+    color: brown;
+    font-style: italic;
+    margin-top: 2rem;
+} 

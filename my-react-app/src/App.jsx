@@ -16,11 +16,12 @@ export default function App() {
 
 // import BookList from "./BookList"
 // import BookList1 from "./Components/BookList1";
-import { useState } from "react";
+// import { useState } from "react";
 // import AddBookForm from "./Components/AddBookForm";
-import MovieForm from "./Components/MovieForm";
-import Header from "./Components/Header";
-import MovieList from "./Components/MovieList";
+// import MovieForm from "./Components/MovieForm";
+// import Header from "./Components/Header";
+// import MovieList from "./Components/MovieList";
+// import TodoForm from "./Components/TodoForm";
 
 
 // import BookList1 from "./Components/BookList1";
@@ -64,12 +65,12 @@ import MovieList from "./Components/MovieList";
 };*/
 
 
-export default function App(){
+// export default function App(){
 
   // student
   // const [books, setBooks] = useState(['']);
 
-  const [movies, setMovies] = useState(['']);
+  /*const [movies, setMovies] = useState(['']);
   // const handleAddBook =(book) =>
   const handleAddMovie =(movie) => {
     // setBooks([book, ...books]);
@@ -86,18 +87,57 @@ export default function App(){
   return (
     <div>
       
-      {/* <BookList/> */}
-      <Header/>
+      {/* <BookList/> */
+      // <Header/>
       {/* <AddBookForm onAddBook={handleAddBook}/> */}
-      <MovieForm onAddMovie={handleAddMovie}/>
+      // <MovieForm onAddMovie={handleAddMovie}/>
       
       {/* <BookList1 books={books} onRemove={handleRemoveBook}/> */}
-      <MovieList movies={movies} onRemove={handleRemoveMovie}/>
-      {/* <Footer/> */}
+      // <MovieList movies={movies} onRemove={handleRemoveMovie}/>
+      // <TodoForm onAdd={handleAddTask}/>
+      // <Footer/> 
       {/* <BookList1/> */}
-    </div>
-  )
+    // </div>
+  // )
+// };
+
+
+import { useState } from "react";
+import Header from "./Components/Header";
+import TodoForm from "./Components/TodoForm";
+// import TodoItem from "./Components/TodoItem";
+import TodoList from "./Components/TodoList";
+
+function App() {
+    const [tasks, setTasks] = useState([]);
+
+    const handleAddTask = (task) => {
+        setTasks([task,...tasks]);
+    };
+
+    const handleToggleTask = (id) => {
+        setTasks(
+            tasks.map((task) =>
+            task.id === id ? { ...task, completed: !task.completed} : task)
+        )
+    }
+
+    const handleRemoveTask = (id) => {
+        setTasks(tasks.filte((task) => task.id !== id))
+    }
+
+    return(
+        <div>
+            <Header/>
+            <TodoForm onAdd={handleAddTask}/>
+            {/* <TodoItem/> */}
+            <TodoList/>
+        </div>
+    )
 };
+export default App;
+
+
 
 
 
