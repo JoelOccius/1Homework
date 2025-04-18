@@ -1,4 +1,4 @@
-import './MovieList.css';
+/*import './MovieList.css';
 import MovieCard from './MovieCard';
 
 function MovieList({ movies, onRemove }) {
@@ -12,11 +12,11 @@ function MovieList({ movies, onRemove }) {
         ))
       )}
 
-      {/* <MovieCard />  // Sa se yon egzanp ou ka aktive pou tès */}
-    </div>
-  );
-}
+      {/* <MovieCard />  // Sa se yon egzanp ou ka aktive pou tès */
+    // </div>
+  // );
+// }
 
-export default MovieList;
+// export default MovieList;*/
 
 

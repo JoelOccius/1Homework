@@ -1,4 +1,4 @@
-import TodoItem from './TodoItem';
+/*import TodoItem from './TodoItem';
 import './TodoList.css';
 
 function TodoList({ tasks, onToggle, onRemove }) {
@@ -20,4 +20,4 @@ function TodoList({ tasks, onToggle, onRemove }) {
     );
 }
 
-export default TodoList;
+export default TodoList;*/

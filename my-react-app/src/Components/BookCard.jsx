@@ -1,6 +1,6 @@
-import './BookCard.css';
+/*import './BookCard.css';
 
-/*function BookCard({book, onRemove}) {
+function BookCard({book, onRemove}) {
     return(
         <div className='book-card'>
 
@@ -14,17 +14,17 @@ import './BookCard.css';
         </div>
     )
 };
-// export default BookCard;*/
+export default BookCard;*/
 
-/*function StudentCard({ student, onRemove}) {
+function StudentCard({ student, onRemove}) {
     return(
         <div className="student-card">
             <div className="info">
-                <h1>{student.firstName} {Student.lastName}</h1>
+                <h1>{student.firstName} {student.lastName}</h1>
                 <p>Grade: {student.grade}</p>
             </div>
             <button onClick={() => onRemove(student.id)}>Remove</button>
         </div>
     )
 };
-export default StudentCard;*/
+export default StudentCard;

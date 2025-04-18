@@ -44,10 +44,10 @@ export default AddBookForm;*/
 
 
 // AddStudentForm.jsx
-/*import { useState } from "react";
+import { useState } from "react";
 
 function AddStudentForm({onAddStudent}){
-    //controler input pour la forme
+    // controler input pour la forme
     const [firstName, setFirstName] = useState ('');
     const [lastName, setLastName] = useState ('');
     const [grade, setGrade] = useState ('');
@@ -83,4 +83,4 @@ function AddStudentForm({onAddStudent}){
         </form>
     )
 };
-export default AddStudentForm;*/
+export default AddStudentForm;

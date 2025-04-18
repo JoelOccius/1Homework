@@ -1,5 +1,5 @@
 
-import './MovieCard.css'
+/*import './MovieCard.css'
 function MovieCard({ movie, onRemove}) {
     return(
         <div className="movie-card">
@@ -11,4 +11,5 @@ function MovieCard({ movie, onRemove}) {
         </div>
     )
 };
-export default MovieCard;
+export default MovieCard;/*
+*/

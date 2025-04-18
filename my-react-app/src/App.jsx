@@ -14,9 +14,10 @@ export default function App() {
   )
 }*/
 
-// import BookList from "./BookList"
-// import BookList1 from "./Components/BookList1";
-// import { useState } from "react";
+import BookList from "./BookList"
+import BookList1 from "./Components/BookList1";
+import { useState } from "react";
+import Hello from "./Components/Hello";
 // import AddBookForm from "./Components/AddBookForm";
 // import MovieForm from "./Components/MovieForm";
 // import Header from "./Components/Header";
@@ -65,44 +66,45 @@ export default function App() {
 };*/
 
 
-// export default function App(){
+export default function App(){
 
   // student
   // const [books, setBooks] = useState(['']);
 
-  /*const [movies, setMovies] = useState(['']);
+  // const [movies, setMovies] = useState(['']);
   // const handleAddBook =(book) =>
-  const handleAddMovie =(movie) => {
+  // const handleAddMovie =(movie) => {
     // setBooks([book, ...books]);
-    setMovies([movie, ...movies]);
-  }
+    // setMovies([movie, ...movies]);
+  // }
 
   // const handleRemoveBook = (id) => {
     // setBooks(books.filter((book) => book.id !==id))
 
-    const handleRemoveMovie = (id) => {
-    setMovies(movies.filter((movie) => movie.id !==id))
-  }
+    // const handleRemoveMovie = (id) => {
+    // setMovies(movies.filter((movie) => movie.id !==id))
+  // }
   
   return (
     <div>
       
-      {/* <BookList/> */
+      {/* {/* <BookList/>  */}
       // <Header/>
       {/* <AddBookForm onAddBook={handleAddBook}/> */}
-      // <MovieForm onAddMovie={handleAddMovie}/>
+      {/* // <MovieForm onAddMovie={handleAddMovie}/> */}
       
       {/* <BookList1 books={books} onRemove={handleRemoveBook}/> */}
-      // <MovieList movies={movies} onRemove={handleRemoveMovie}/>
-      // <TodoForm onAdd={handleAddTask}/>
+      {/* // <MovieList movies={movies} onRemove={handleRemoveMovie}/> */}
+      {/* // <TodoForm onAdd={handleAddTask}/> */}
       // <Footer/> 
       {/* <BookList1/> */}
-    // </div>
-  // )
-// };
+      <Hello/>
+    </div>
+  )
+};
 
 
-import { useState } from "react";
+/*import { useState } from "react";
 import Header from "./Components/Header";
 import TodoForm from "./Components/TodoForm";
 // import TodoItem from "./Components/TodoItem";
@@ -130,12 +132,12 @@ function App() {
         <div>
             <Header/>
             <TodoForm onAdd={handleAddTask}/>
-            {/* <TodoItem/> */}
-            <TodoList/>
-        </div>
-    )
-};
-export default App;
+            {/* <TodoItem/> */
+            // <TodoList/>
+        // </div>
+    // )
+// };
+// export default App;
 
 
 

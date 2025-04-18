@@ -1,4 +1,4 @@
-import { useState } from "react";
+/*import { useState } from "react";
 
 function NameForm () {
     const [name , setName] = useState ('');
@@ -19,4 +19,4 @@ function NameForm () {
         </form>
  
     )
-}export default NameForm;
+}export default NameForm;*/

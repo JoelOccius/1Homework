@@ -1,6 +1,6 @@
-import { useState } from "react";
+// import { useState } from "react";
 
-function ListOfFruits() {
+/*function ListOfFruits() {
     const fruits= ['apple' , 'orange', 'mango' , 'banana' , 'grape']
 
     return(
@@ -10,4 +10,4 @@ function ListOfFruits() {
         </ul>
     )
 };
-export default ListOfFruits;
+export default ListOfFruits;*/
